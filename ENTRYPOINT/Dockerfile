@@ -9,3 +9,4 @@ FROM almalinux
 
 ENTRYPOINT ["ping"]
 CMD ["yahoo.com"]
+#CMD can be used as supplier of default args to ENTRYPOINT and we can always override those default args at run time.
