@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:${vesrion:-9}
+FROM almalinux:${version:-9}
 ARG course="docker" \
     trainer="shiva" \
     place="hyd"
