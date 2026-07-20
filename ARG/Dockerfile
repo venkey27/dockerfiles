@@ -1,4 +1,5 @@
-FROM almalinux:9
+ARG version
+FROM almalinux:${vesrion:-9}
 ARG course="docker" \
     trainer="shiva" \
     place="hyd"
